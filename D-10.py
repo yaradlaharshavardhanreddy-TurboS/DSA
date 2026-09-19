@@ -19,6 +19,8 @@ def merge(arr, left , mid , right):
         temp.append(arr[i])
         i+=1
 
+    
+
 
     while j <= right:
         temp.append(arr[j])
