@@ -9,6 +9,8 @@ def flip(arr,k):
         arr[i],arr[j]=arr[j],arr[i]
         i+=1
         j+=1
+
+
 def pancakesort(arr):
     for size in range(len(arr),1,-1):
         max_index=0
