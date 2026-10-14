@@ -12,6 +12,7 @@ for i in range(n):
     newnode=node(data)
     if head is None:
         head=newnode
+        
     else:
         temp=head
         while temp.next is not None:
